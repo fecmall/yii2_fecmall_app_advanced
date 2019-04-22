@@ -1,0 +1,64 @@
+# doc file
+.a.updateBefore.md
+
+/feepackage
+
+/appfront
+
+/apphtml5
+
+recp.sh
+
+feepackage
+
+iconv_shell.sh
+
+# yii console command
+/yii
+
+# phpstorm project files
+.idea
+
+zip.txt
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+/packages
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+nohup.out
+
+/backend
+/doc
+/frontend
+doc.sh
+cp.sh
+myreadme.txt
+
+composer.lock
+
