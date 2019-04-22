@@ -1,14 +1,14 @@
 {
-    "name": "yiisoft/yii2-app-advanced",
-    "description": "Yii 2 Advanced Project Template",
-    "keywords": ["yii2", "fecshop","cart", "shop", "e-commerce"],
-    "homepage": "http://www.fecshop.com/",
+    "name": "fecmall/fbbcbase-app-advanced",
+    "description": "fecmall Advanced Project Template, base fecshop",
+    "keywords": ["fecmall", "yii2", "fecshop","cart", "shop", "e-commerce"],
+    "homepage": "http://www.fecmall.com/",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
         "forum": "http://www.fecshop.com/forum/",
         "wiki": "http://www.fecshop.com/wiki/",
-        "source": "https://github.com/fancyecommerce/yii2_fecshop_app_advanced"
+        "source": "https://github.com/fecmall/yii2_fecmall_app_advanced"
     },
     "minimum-stability": "stable",
     "require": {
