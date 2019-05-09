@@ -10,13 +10,17 @@
 return [
     'image' => [
         'appbase'    => [
-            'appfront' => [
-                'basedir'    => '@appimage/appfront',
-                'basedomain' => '//enterprise.appfrontimg.fecshop.com',
+            'appserver' => [
+                'basedir'    => '@appimage/appserver',
+                'basedomain' => '//bbc.img1.fecmall.com',
             ],
-            'apphtml5' => [
-                'basedir'    => '@appimage/apphtml5',
-                'basedomain' => '//enterprise.apphtml5img.fecshop.com',
+            'appadmin' => [
+                'basedir'    => '@appimage/appadmin',
+                'basedomain' => '//bbc.img2.fecmall.com',
+            ],
+            'appbdmin' => [
+                'basedir'    => '@appimage/appbdmin',
+                'basedomain' => '//bbc.img3.fecmall.com',
             ],
             //'appadmin' => [
             //	'basedir' => '@appimage/appadmin',
@@ -24,7 +28,7 @@ return [
             //],
             'common' => [
                 'basedir'    => '@appimage/common',
-                'basedomain' => '//enterprise.img.fecshop.com',
+                'basedomain' => '//bbc.img.fecmall.com',
             ],
         ],
     ],

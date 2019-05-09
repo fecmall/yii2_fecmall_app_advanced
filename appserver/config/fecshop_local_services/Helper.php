@@ -17,7 +17,7 @@ return [
                     // 'Origin' => ['http://demo.fancyecommerce.com', 'http://demo.fecshop.com'], 也就是里面填写你的vue端的域名，如果多个vue应用可以在下面填写多个域名
                     // 关于原理参看：http://www.fecshop.com/topic/1545 ，
                     // 注意，下面`一定不要`在线上环境中使用 ['*'], 这会造成严重的csrf漏洞, 您将 http://demo.fancyecommerce.com 改成您自己的跨站域名即可。
-                    'Origin' => ['http://enterprise.fancyecommerce.com'],
+                    'Origin' => ['http://vue.fecmall.com'],
                     // for appserver controller
                     'Access-Control-Request-Method' => ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
                     'Access-Control-Request-Headers' => [],
