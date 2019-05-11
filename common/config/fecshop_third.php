@@ -11,8 +11,8 @@
  * 本配置文件为第三方插件库包的配置文件
  */
 $third_config = [];
-$current_app = FEC_APP ? FEC_APP : '';
-$app_arr = ['common', $current_app];
+//$current_app = FEC_APP ? FEC_APP : '';
+$app_arr = ['common'];
 $third_config_file = glob(__DIR__.'/fecshop_third_extensions/*.php');
 if (is_array($third_config_file) && !empty($third_config_file)) {
     sort($third_config_file);

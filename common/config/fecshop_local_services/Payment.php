@@ -25,7 +25,7 @@ return [
                     'start_url'                => '@homeUrl/payment/checkmoney/start',    // 点击按钮后，跳转的url，在这个url里面写支付跳转前的提交信息。
                     'success_redirect_url'     => '@homeUrl/payment/success',            // 在支付平台支付成功后，返回的页面
                 ],
-                /*
+                
                 'paypal_standard' => [
                     // 订单生成后，跳转到支付开始页面的url
                     'start_url'            => '@homeUrl/payment/paypal/standard/start',
@@ -50,7 +50,7 @@ return [
                     // paypal发送IPN，fecshop用于接收IPN消息的地址。
                     'ipn_url' => '@homeUrl/payment/paypal/standard/ipn',
                 ],
-                */
+                
                 'alipay_standard' => [
                     'label'=> 'alipay',
                     // 跳转开始URL

@@ -75,12 +75,14 @@ if($use_merge_config_file){
 
 $config['homeUrl'] = $homeUrl;
 
+
 /**
  * yii class Map Custom 
  */ 
 $yiiClassMap = yii\helpers\ArrayHelper::merge(
-    require(__DIR__ . '/../config/YiiClassMap.php'),
-    require(__DIR__ . '/../../common/config/YiiClassMap.php')
+    require(__DIR__ . '/../../vendor/fecmall/fbbcbase/app/appserver/config/YiiClassMap.php'),
+    require(__DIR__ . '/../../common/config/YiiClassMap.php'),
+    require(__DIR__ . '/../config/YiiClassMap.php')
 );
 if(is_array($yiiClassMap) && !empty($yiiClassMap)){
 	foreach($yiiClassMap as $namespace => $filePath){
@@ -94,8 +96,9 @@ if(is_array($yiiClassMap) && !empty($yiiClassMap)){
  * 重写的类可以集成被重写的类
  */ 
 $yiiRewriteMap = yii\helpers\ArrayHelper::merge(
-    require(__DIR__ . '/../config/YiiRewriteMap.php'),
-    require(__DIR__ . '/../../common/config/YiiRewriteMap.php')
+    require(__DIR__ . '/../../vendor/fecmall/fbbcbase/app/appserver/config/YiiRewriteMap.php'),
+    require(__DIR__ . '/../../common/config/YiiRewriteMap.php'),
+    require(__DIR__ . '/../config/YiiRewriteMap.php')
 );
 if(is_array($yiiRewriteMap) && !empty($yiiRewriteMap)){
 	Yii::$rewriteMap = $yiiRewriteMap;
